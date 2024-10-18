@@ -1,0 +1,78 @@
+@media (max-width: 1399.98px) {
+  :root {
+    --primary_Background_color: #1c1e53;
+    --secondary_Background_color: #f4f6fc;
+    --yellow_color: #fcd980;
+    --white_color: #ffff;
+    --black_color: #282938;
+    /* ===========Text Font Family============ */
+    --Popins_Font: "Poppins", sans-serif;
+    /* ===========Text Font Family============ */
+  }
+
+  /*  ========================= Build ========================= */
+  .BuildingPartHeading {
+    font-size: 48px;
+
+    line-height: 68px;
+  }
+  /*  ========================= Build ========================= */
+  /*  ========================= Work ========================= */
+  .WorkPartLeft__Heading {
+    font-size: 44px;
+  }
+  .WorkPartRightBoxItem__Heading {
+    font-size: 30px;
+  }
+  /*  ========================= Work ========================= */
+  /*  ========================= View ========================= */
+  .ViewPartHeader__Title {
+    font-size: 45px;
+  }
+  /*  ========================= View ========================= */
+  /*  ========================= SolvesProblem ========================= */
+  .SolvesProblemHeader__Title {
+    font-size: 44px;
+
+    line-height: 60px;
+  }
+  .SolvesProblemItem {
+    padding: 58px 17px 48px 48px;
+    background-color: var(--white_color);
+  }
+  .SolvesProblemItem__Header {
+    font-size: 23px;
+  }
+  /*  ========================= SolvesProblem ========================= */
+  /*  ========================= ClientSays ========================= */
+  .ClientSaysLeft__title {
+    font-size: 36px;
+    line-height: 53px;
+  }
+  .ClientSaysRight__Title {
+    font-size: 30px;
+    line-height: 42px;
+  }
+  /*  ========================= ClientSays ========================= */
+  /*  ========================= Inquary ========================= */
+  .InquaryLeftPartOverlayer__title {
+    font-size: 48px;
+    line-height: 66px;
+  }
+  .InquaryRightPart__title {
+    font-size: 30px;
+  }
+  .InquaryRightPartWrapper {
+    padding: 75px 96px 40px 96px;
+  }
+  .InquaryRightPartInputField {
+    margin-top: 34px;
+  }
+
+  /*  ========================= Inquary ========================= */
+  /*  ========================= OurBlog ========================= */
+  .OurBlog__title {
+      font-size: 46px;
+    }
+    /*  ========================= OurBlog ========================= */
+}
