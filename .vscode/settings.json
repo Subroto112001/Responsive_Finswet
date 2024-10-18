@@ -1,0 +1,7 @@
+{
+  "files.autoSave": "afterDelay",
+  "editor.fontSize": 16,
+  "editor.cursorStyle": "line",
+  "editor.wordWrap": "on",
+  "liveServer.settings.port": 5501
+}

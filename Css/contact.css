@@ -1,0 +1,249 @@
+/* ======================Common CSS====================== */
+/* =============== Google Font ============= */
+/* =============== Popins Font =============== */
+@import url("https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap");
+/* =============== Popins Font =============== */
+/* =============== Google Font ============= */
+* {
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box;
+}
+a {
+  text-decoration: none;
+}
+h1,
+h2,
+h3,
+h4,
+h5,
+h6,
+img,
+ul,
+li,
+ol,
+span,
+a,
+div,
+nav,
+br,
+p {
+  margin: 0;
+  padding: 0;
+}
+ul,
+li,
+ol {
+  list-style: none;
+}
+img {
+  vertical-align: middle;
+}
+:root {
+  --primary_Background_color: #1c1e53;
+  --secondary_Background_color: #f4f6fc;
+  --yellow_color: #fcd980;
+  --white_color: #ffff;
+  --black_color: #282938;
+  --RoyalBlue_color: #2405f2;
+  /* ===========Text Font Family============ */
+  --Popins_Font: "Poppins", sans-serif;
+  /* ===========Text Font Family============ */
+}
+body {
+  font-family: var(--Popins_Font);
+}
+/* ======================Common CSS====================== */
+/* ================ Navbar Css ================ */
+.CoustomNav {
+  padding: 16px 0;
+  background-color: var(--primary_Background_color);
+}
+
+.CoustomNavbarIMenuUl {
+  column-gap: 32px;
+}
+.CoustomNavbarIMenuUl__Item a {
+  color: #bbbbcb;
+  transition: all linear 0.2s;
+  -webkit-transition: all linear 0.2s;
+  -moz-transition: all linear 0.2s;
+  -ms-transition: all linear 0.2s;
+  -o-transition: all linear 0.2s;
+}
+.CoustomNavbarIMenuUl__Item:hover a {
+  color: var(--white_color);
+}
+.CoustomNav__button {
+  padding: 16px 48px;
+  background-color: transparent;
+  color: var(--white_color);
+  font-size: 16px;
+  font-weight: 500;
+  border: 2px solid rgb(244, 246, 252, 20%);
+  border-radius: 42px;
+  -webkit-border-radius: 42px;
+  -moz-border-radius: 42px;
+  -ms-border-radius: 42px;
+  -o-border-radius: 42px;
+  transition: all linear 0.3s;
+  -webkit-transition: all linear 0.3s;
+  -moz-transition: all linear 0.3s;
+  -ms-transition: all linear 0.3s;
+  -o-transition: all linear 0.3s;
+}
+.CoustomNav__button:hover {
+  background-color: var(--yellow_color);
+  color: var(--black_color);
+}
+/* ================ Navbar Css ================ */
+/*  ====================== Contact ====================== */
+#Contact {
+  padding: 128px 155px;
+}
+.contactPart {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+.contactPart__Title {
+  font-size: 48px;
+  font-weight: 600;
+  color: var(--black_color);
+}
+.contactPart__Summary {
+  margin-top: 16px;
+  font-size: 16px;
+  font-weight: 400;
+  line-height: 28px;
+  text-align: center;
+  color: var(--black_color);
+  padding: 0 348px;
+}
+.contactPartFrom {
+  margin-top: 64px;
+  background-color: var(--secondary_Background_color);
+  border-radius: 12px;
+  -webkit-border-radius: 12px;
+  -moz-border-radius: 12px;
+  -ms-border-radius: 12px;
+  -o-border-radius: 12px;
+  padding: 55px 77px;
+}
+.contactPartFrom__title {
+  font-size: 18px;
+  font-weight: 500;
+  color: var(--black_color);
+  margin-bottom: 6px;
+}
+.contactPartFrom__btn {
+  margin-top: 32px;
+  padding: 16px 64px;
+  border-radius: 41px;
+  border: none;
+  background-color: var(--black_color);
+  -webkit-border-radius: 41px;
+  -moz-border-radius: 41px;
+  -ms-border-radius: 41px;
+  -o-border-radius: 41px;
+  color: var(--white_color);
+  font-size: 18px;
+  font-weight: 600;
+}
+/*  ====================== Contact ====================== */
+
+/* =========== Footer CSS =========== */
+#Footer {
+  background-color: var(--primary_Background_color);
+  padding-top: 96px;
+}
+
+.FooterLeft__Summary {
+  margin-top: 22px;
+  font-size: 16px;
+  font-weight: 500;
+  color: var(--white_color);
+  line-height: 28px;
+  padding-right: 90px;
+}
+.FooterLeftContact {
+  margin-top: 86px;
+  background-color: var(--yellow_color);
+  padding: 17px 137px 17px 37px;
+}
+.FooterLeftContactleft {
+  display: flex;
+  flex-direction: column;
+}
+.FooterLeftContactleft__header {
+  font-size: 18px;
+  font-weight: 500;
+  color: var(--black_color);
+}
+.FooterLeftContactleft__mail {
+  font-size: 16px;
+  font-weight: 400;
+  color: var(--black_color);
+}
+
+.FotterRigth {
+  display: flex;
+  flex-direction: column;
+  padding-left: 142px;
+}
+.FotterRigth__title {
+  font-size: 48px;
+  font-weight: 600;
+  color: var(--white_color);
+}
+.FotterRigth__Summary {
+  margin-top: 14px;
+  font-size: 16px;
+  font-weight: 400;
+  color: var(--white_color);
+  line-height: 28px;
+  padding-right: 126px;
+}
+.FotterRigthIcon {
+  margin-top: 28px;
+  display: flex;
+  column-gap: 27px;
+}
+.FotterRigthIcon__linked {
+  color: var(--black_color);
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  width: 30px;
+  height: 30px;
+  background-color: var(--white_color);
+  border-radius: 50%;
+  -webkit-border-radius: 50%;
+  -moz-border-radius: 50%;
+  -ms-border-radius: 50%;
+  -o-border-radius: 50%;
+}
+/* =========== Footer CSS =========== */
+/* =========== Footer2 CSS =========== */
+.FotterWrapper {
+  display: flex;
+  justify-content: space-between;
+  padding: 32px 0;
+}
+.FootterPartCopy {
+  font-size: 16px;
+  font-weight: 500;
+  color: var(--black_color);
+}
+.FootterPartCopyRigt {
+  display: flex;
+  column-gap: 32px;
+}
+.FootterPartCopyRigt__item {
+  font-size: 16px;
+  font-weight: 500;
+  color: var(--black_color);
+}
+
+/* =========== Footer2 CSS =========== */
