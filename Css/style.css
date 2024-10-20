@@ -336,6 +336,16 @@ margin-right: 48px;
   column-rule-color: var(--black_color);
   line-height: 48px;
 }
+.ClientSaysRightAuthorName__title{
+  font-size: 18px;
+  font-weight: 500;
+  color: var(--black_color);
+}
+.ClientSaysRightAuthorName__Subtitle{
+  font-size: 12px;
+  font-weight: 500;
+  color: var(--black_color);
+}
 
 /* =========== ClientSays CSS =========== */
 /* =========== Frequently CSS =========== */
