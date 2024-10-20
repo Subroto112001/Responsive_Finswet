@@ -1,0 +1,92 @@
+@media (max-width: 575.98px) {
+  :root {
+    --primary_Background_color: #1c1e53;
+    --secondary_Background_color: #f4f6fc;
+    --yellow_color: #fcd980;
+    --white_color: #ffff;
+    --black_color: #282938;
+  }
+
+  /*  ========================= Build ========================= */
+  .BuildingPartHeading {
+    font-size: 22px;
+    line-height: 42px;
+  }
+  .BuildingPart__Summary {
+    margin-top: 12px;
+    font-size: 14px;
+    line-height: 22px;
+  }
+  .CoustomNav__button {
+    padding: 8px 31px;
+  }
+  /*  ========================= Build ========================= */
+  /*  ========================= Work ========================= */
+  .WorkPartLeft__Heading {
+    font-size: 30px;
+  }
+  .WorkPartLeft__summery {
+    padding: 0px 54px;
+  }
+  .WorkPartRightBoxItem__Summary {
+    padding: 0px 75px;
+  }
+  /*  ========================= Work ========================= */
+  /*  ========================= View ========================= */
+  .ViewPartHeader__Title {
+    font-size: 24px;
+  }
+  .ViewPartHeader__SubTitle {
+    font-size: 14px;
+  }
+  .ViewPartWorkhubOverlayer__Title {
+    font-size: 20px;
+    line-height: 24px;
+  }
+  .ViewPartRightWebsiteOverlayer__title {
+    font-size: 20px;
+  }
+  /*  ========================= View ========================= */
+  /*  ========================= SolvesProblem ========================= */
+  .SolvesProblemHeader__Title {
+    font-size: 20px;
+    line-height: 32px;
+  }
+  .SolvesProblemItem__Header {
+    font-size: 18px;
+  }
+  .SolvesProblemItem__Summary {
+    font-size: 14px;
+    font-weight: 400;
+    color: var(--black_color);
+  }
+  /*  ========================= SolvesProblem ========================= */
+  /*  ========================= ClientSays ========================= */
+  .ClientSaysLeft__title {
+    font-size: 25px;
+  }
+  .ClientSaysLeft__SubTitle {
+    margin-top: 0px;
+  }
+  .ClientSaysRight__Title {
+    font-size: 18px;
+    line-height: 24px;
+    margin-top: 30px;
+    text-align: justify;
+  }
+  /*  ========================= ClientSays ========================= */
+  /*  ========================= Inquary ========================= */
+  .InquaryLeftPartOverlayer__title {
+      font-size: 24px;
+        line-height: 36px;
+    }
+   .InquaryRightPart__title {
+    font-size: 24px;
+}
+    /*  ========================= Inquary ========================= */
+    /*  ========================= OurBlog ========================= */
+    .OurBlog__title {
+        font-size: 28px;
+    }
+    /*  ========================= OurBlog ========================= */
+}

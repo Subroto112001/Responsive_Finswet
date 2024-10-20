@@ -1,0 +1,71 @@
+@media (max-width: 1199.98px) {
+  :root {
+    --primary_Background_color: #1c1e53;
+    --secondary_Background_color: #f4f6fc;
+    --yellow_color: #fcd980;
+    --white_color: #ffff;
+    --black_color: #282938;
+  }
+  /* ================ OurDesign Css ================ */
+  .OurDesignAbout__Title {
+    font-size: 46px;
+    line-height: 66px;
+  }
+  .OurDesignAbout__Summary {
+    margin-top: 33px;
+    padding-right: 133px;
+  }
+  /* ================ OurDesign Css ================ */
+  /* ================ WhoWeAre Css ================ */
+  .WhoWeAreRight__title {
+    font-size: 30px;
+    margin-top: 30px;
+  }
+  .WhoWeAreLeft__Title {
+    margin-top: 4px;
+    font-size: 32px;
+    font-weight: 600;
+    color: var(--black_color);
+  }
+  .WhoWeAreLeft__Summary {
+    padding-right: 80px;
+  }
+  .WhoWeAreRight__Summary {
+    padding-right: 80px;
+  }
+  /* ================ WhoWeAre Css ================ */
+  /* ================ proccess Css ================ */
+  .proccess__Header {
+    font-size: 44px;
+  }
+  .proccessItem__Summary {
+    margin-top: 8px;
+    font-size: 15px;
+  }
+  /* ================ proccess Css ================ */
+  /* ================ MisionVision Css ================ */
+  .MisionVisionLeft__Summary {
+    text-align: justify;
+  }
+  /* ================ MisionVision Css ================ */
+  /* ================ MeetTeam Css ================ */
+  .JhonSmith {
+    padding: 48px 43px 32px 42px;
+  }
+  /* ================ MeetTeam Css ================ */
+  /*  ========================= Fotter ========================= */
+  .FooterLeftContactleft__mail {
+    font-size: 13px;
+  }
+  .FotterRigth__title {
+    font-size: 40px;
+  }
+  .FotterRigth__Summary {
+    margin-top: 14px;
+    font-size: 15px;
+
+    line-height: 26px;
+    padding-right: 62px;
+  }
+  /*  ========================= Fotter ========================= */
+}

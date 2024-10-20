@@ -1,0 +1,142 @@
+@media (max-width: 767.98px) {
+  :root {
+    --primary_Background_color: #1c1e53;
+    --secondary_Background_color: #f4f6fc;
+    --yellow_color: #fcd980;
+    --white_color: #ffff;
+    --black_color: #282938;
+  }
+
+  /*  ========================= Build ========================= */
+  .BuildingPartHeading {
+    font-size: 36px;
+    line-height: 42px;
+  }
+
+  .BuildingPartBtnBox {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+  }
+  /*  ========================= Build ========================= */
+  /*  ========================= Work ========================= */
+  .WorkPartLeft__summery {
+    text-align: center;
+  }
+  .WorkPartRightBoxItem__Summary {
+    text-align: center;
+  }
+  /*  ========================= Work ========================= */
+  /*  ========================= View ========================= */
+  .ViewPartHeader__Title {
+    font-size: 28px;
+  }
+  .ViewPartWorkhubOverlayerWrapper {
+    margin-bottom: 58px;
+  }
+  .ViewPartWorkhubOverlayer__Title {
+    font-size: 21px;
+    line-height: 28px;
+  }
+  .ViewPartWorkhubOverlayer__Summary {
+    font-size: 14px;
+
+    line-height: 19px;
+  }
+  .ViewPartWorkhubOverlayer__link {
+    margin-top: 35px;
+    font-size: 14px;
+  }
+  .ViewPartWorkhubOverlayerWrapper {
+    margin-bottom: 142px;
+  }
+  .ViewPartRightWebsiteOverlayer__title {
+    font-size: 22px;
+  }
+  .ViewPartRightWebsiteOverlayer__link {
+    font-size: 16px;
+    margin-top: 20px;
+  }
+  /*  ========================= View ========================= */
+  /*  ========================= SolvesProblem ========================= */
+  .SolvesProblemHeader__Title {
+    font-size: 25px;
+    line-height: 32px;
+  }
+  .SolvesProblemItem {
+    padding: 58px 17px 48px 17px;
+    text-align: center;
+  }
+  /*  ========================= SolvesProblem ========================= */
+  /*  ========================= Client ========================= */
+  .ClientSaysLeft__title {
+    font-size: 28px;
+    line-height: 48px;
+  }
+  .ClientSaysRight__Title {
+    font-size: 20px;
+    line-height: 28px;
+    margin-top: 30px;
+    text-align: justify;
+  }
+  /*  ========================= Client ========================= */
+  /*  ========================= Frequently ========================= */
+  .FrequentlyLeft__title {
+    font-size: 30px;
+  }
+  /*  ========================= Frequently ========================= */
+  /*  ========================= Inquary ========================= */
+  .InquaryLeftPartOverlayer__title {
+    font-size: 28px;
+  }
+  .InquaryLeftPartOverlayer__summary {
+    font-size: 15px;
+
+    line-height: 24px;
+  }
+  /*  ========================= Inquary ========================= */
+  /*  ========================= OurBlog ========================= */
+  .OurBlog__title {
+    font-size: 32px;
+  }
+  .OurBlogItem1__Header {
+    font-size: 20px;
+    line-height: 28px;
+  }
+  .OurBlogItem1__Summary {
+    font-size: 15px;
+  }
+  /*  ========================= OurBlog ========================= */
+  /*  ========================= Footer ========================= */
+  .FotterRigth__title {
+    font-size: 36px;
+  }
+  .FooterLeft__Summary {
+    line-height: 25px;
+    padding-right: 12px;
+    font-size: 15px;
+  }
+  .FooterLeftContact {
+    padding: 17px 40px 17px 37px;
+  }
+  .FotterRigth {
+    display: flex;
+    flex-direction: column;
+    padding-left: 18px;
+  }
+  .FotterRigth__Summary {
+    margin-top: 14px;
+    font-size: 15px;
+    line-height: 24px;
+    padding-right: 8px;
+  }
+  .FotterRigthIcon {
+    margin-top: 96px;
+    display: flex;
+    column-gap: 27px;
+  }
+  .FootterPartCopyRigt__item {
+    font-size: 14px;
+}
+  /*  ========================= Footer ========================= */
+}

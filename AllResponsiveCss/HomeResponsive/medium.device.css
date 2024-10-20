@@ -1,11 +1,92 @@
-
-  @media (max-width: 991.98px) {
-
-      :root {
+@media (max-width: 991.98px) {
+  :root {
     --primary_Background_color: #1c1e53;
     --secondary_Background_color: #f4f6fc;
     --yellow_color: #fcd980;
     --white_color: #ffff;
     --black_color: #282938;
   }
-   }
+  /*  ========================= Build ========================= */
+  .BuildingPartHeading {
+    font-size: 38px;
+    line-height: 53px;
+  }
+  .BuildingPart__Summary {
+    margin-top: 20px;
+    line-height: 28px;
+  }
+  /*  ========================= Build ========================= */
+  /*  ========================= Work ========================= */
+  .WorkPartLeft {
+    justify-content: center;
+    align-items: center;
+  }
+  .WorkPartRightBoxItem {
+    justify-content: center;
+    align-items: center;
+    margin-top: 20px;
+  }
+  /*  ========================= Work ========================= */
+  /*  ========================= View ========================= */
+  .ViewPartHeader__Title {
+    font-size: 38px;
+  }
+  .ViewPartWorkhubOverlayerWrapper {
+    margin-bottom: 100px;
+  }
+  .ViewPartWorkhubOverlayerWrapper {
+    margin-bottom: 188px;
+  }
+  /*  ========================= View ========================= */
+  /*  ========================= SolvesProblem ========================= */
+
+  .SolvesProblemHeader__Title {
+    font-size: 38px;
+    line-height: 42px;
+  }
+  .SolvesProblemItem {
+    padding: 58px 17px 48px 34px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+  }
+  /*  ========================= SolvesProblem ========================= */
+  /*  ========================= ClientSays ========================= */
+  .ClientSaysRight__Title {
+    font-size: 25px;
+    line-height: 37px;
+    margin-top: 30px;
+    text-align: justify;
+  }
+  /*  ========================= ClientSays ========================= */
+  /*  ========================= Inquary ========================= */
+  .InquaryLeftPartOverlayer__title {
+    font-size: 40px;
+    line-height: 55px;
+  }
+  .InquaryLeftPartOverlayer__summary {
+    text-align: justify;
+  }
+  /*  ========================= Inquary ========================= */
+  /*  ========================= OurBlog ========================= */
+  .OurBlogItem1 {
+    margin-top: 10px;
+  }
+  .OurBlog__title {
+    font-size: 40px;
+  }
+  .OurBlogPartWrapper {
+    margin-top: 38px;
+  }
+  .OurBlogItem1__Header {
+    text-align: justify;
+  }
+  /*  ========================= OurBlog ========================= */
+  /*  ========================= Footer ========================= */
+  .FooterLeft__Summary {
+    line-height: 28px;
+    padding-right: 30px;
+  }
+}

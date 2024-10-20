@@ -58,10 +58,10 @@ body {
   padding: 16px 0;
   background-color: var(--primary_Background_color);
 }
- .CoustomNavbarMenu{
-    display: flex;
-margin-right: 48px;
-  }
+.CoustomNavbarMenu {
+  display: flex;
+  margin-right: 48px;
+}
 
 .CoustomNavbarIMenuUl {
   column-gap: 32px;
@@ -125,6 +125,14 @@ margin-right: 48px;
 .BuildingPartBtn {
   margin-top: 48px;
 }
+.BuildingPartBtnBox {
+  /* this class for small device */
+}
+.BuildingPartBtnWrapper {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
 .BuildingPart--Button1 {
   background-color: var(--yellow_color);
   color: var(--black_color);
@@ -137,11 +145,16 @@ margin-right: 48px;
   background-color: transparent;
   color: var(--white_color);
 }
+
 /* ================ Building Css ================ */
 /* ================ Work Css ================ */
 #Work {
   background-color: var(--secondary_Background_color);
   padding: 128px 0;
+}
+.WorkPart {
+  display: flex;
+  justify-content: space-between;
 }
 .WorkPartLeft {
   display: flex;
@@ -163,9 +176,7 @@ margin-right: 48px;
   font-weight: 500;
   color: #2405f2;
 }
-.WorkpartRight {
-  margin-left: 142px;
-}
+
 .WorkPartRightBoxItem {
   display: flex;
   flex-direction: column;
@@ -194,7 +205,7 @@ margin-right: 48px;
   font-weight: 600;
   color: var(--black_color);
 }
-.ViewPartHeaderSubTitle {
+.ViewPartHeader__SubTitle {
   font-size: 16px;
   font-weight: 500;
   color: var(--black_color);
@@ -325,7 +336,7 @@ margin-right: 48px;
 }
 .ClientSaysLeft__SubTitle {
   margin-top: 16px;
-  font-size: 16ppx;
+  font-size: 16px;
   font-weight: 400;
   color: var(--black_color);
   line-height: 28px;
@@ -336,12 +347,12 @@ margin-right: 48px;
   column-rule-color: var(--black_color);
   line-height: 48px;
 }
-.ClientSaysRightAuthorName__title{
+.ClientSaysRightAuthorName__title {
   font-size: 18px;
   font-weight: 500;
   color: var(--black_color);
 }
-.ClientSaysRightAuthorName__Subtitle{
+.ClientSaysRightAuthorName__Subtitle {
   font-size: 12px;
   font-weight: 500;
   color: var(--black_color);

@@ -1,0 +1,31 @@
+@media (max-width: 1399.98px) { 
+    :root {
+  --primary_Background_color: #1c1e53;
+  --secondary_Background_color: #f4f6fc;
+  --yellow_color: #fcd980;
+  --white_color: #ffff;
+  --black_color: #282938;
+ 
+}
+/* ================ OurDesign Css ================ */
+.OurDesignAbout__Title {
+    font-size: 50px;
+    line-height: 70px;
+}
+/* ================ OurDesign Css ================ */
+/* ================ WhoWeAre Css ================ */
+.WhoWeAreRight__title {
+    font-size: 37px;
+
+}
+
+/* ================ WhoWeAre Css ================ */
+/* ================ MeetTeam Css ================ */
+.JhonSmith__title {
+    margin-top: 30px;
+    font-size: 23px;
+    font-weight: 500;
+    color: var(--black_color);
+}
+/* ================ MeetTeam Css ================ */
+ }
