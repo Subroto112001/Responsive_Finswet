@@ -75,5 +75,17 @@
   .FootterPartCopyRigt__item {
     font-size: 14px;
   }
+  .FootterPartCopyTitele {
+    margin-top: 5px;
+    justify-content: center;
+    display: flex;
+    align-items: center;
+}
+  .FootterPartCopyRigt {
+    margin-top: 6px;
+    align-items: center;
+    justify-content: center;
+}
   /*  ========================= Footer ========================= */
+
 }

@@ -84,13 +84,14 @@
     text-align: justify;
   }
   /*  ========================= OurBlog ========================= */
-  /*  ========================= Footer ========================= */
-  .FooterLeft__Summary {
+ /* ================ Fotter Css ================ */
+    .FooterLeft__Summary {
+   
     padding-right: 47px;
-  }
-  .FotterRigth__Summary {
-    padding-right: 22px;
-    text-align: justify;
-  }
-  /*  ========================= Footer ========================= */
+}
+    .FotterRigth__Summary {
+        padding-right: 22px;
+        text-align: justify;
+    }
+    /* ================ Fotter Css ================ */
 }

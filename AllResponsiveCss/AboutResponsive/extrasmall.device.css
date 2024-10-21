@@ -43,4 +43,17 @@
     font-size: 20px;
   }
   /*  ========================= proccess ========================= */
+  /*  ========================= Footer ========================= */
+  .FootterPartCopyTitele {
+    margin-top: 5px;
+    justify-content: center;
+    display: flex;
+    align-items: center;
+}
+  .FootterPartCopyRigt {
+    margin-top: 6px;
+    align-items: center;
+    justify-content: center;
+}
+  /*  ========================= Footer ========================= */
 }
