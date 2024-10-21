@@ -86,7 +86,11 @@
   /*  ========================= OurBlog ========================= */
   /*  ========================= Footer ========================= */
   .FooterLeft__Summary {
-    line-height: 28px;
-    padding-right: 30px;
+    padding-right: 47px;
   }
+  .FotterRigth__Summary {
+    padding-right: 22px;
+    text-align: justify;
+  }
+  /*  ========================= Footer ========================= */
 }

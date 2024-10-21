@@ -1,0 +1,90 @@
+@media (max-width: 991.98px) {
+  :root {
+    --primary_Background_color: #1c1e53;
+    --secondary_Background_color: #f4f6fc;
+    --yellow_color: #fcd980;
+    --white_color: #ffff;
+    --black_color: #282938;
+  }
+
+  /* ================ OurDesign Css ================ */
+  .OurDesignAbout__Title {
+    font-size: 44px;
+  }
+  .OurDesignAbout__Summary {
+    margin-top: 28px;
+    padding-right: 58px;
+  }
+  .OurDesignRight {
+    margin-top: 18px;
+  }
+  /* ================ OurDesign Css ================ */
+  /* ================ proccess Css ================ */
+
+  .proccess__Header {
+    font-size: 40px;
+  }
+  .proccessItem {
+    margin-top: 15px;
+  }
+  /* ================ proccess Css ================ */
+
+  /* ================ MisionVision Css ================ */
+  .MisionVisionLeft__Header {
+    font-size: 34px;
+  }
+  .MisionVisionLeft__Summary {
+    line-height: 24px;
+  }
+  .MisionVisionLeft__SubbHeader {
+    margin-top: 15px;
+  }
+  /* ================ MisionVision Css ================ */
+  /* ================ Benefits Css ================ */
+  .BenefitsHeader__title {
+      font-size: 40px;
+      text-align: center;
+    }
+    .BenefitsItemWrapper {
+        display: flex;
+        flex-direction: column;
+        row-gap: 20px;
+    }
+    .BenefitsItem {
+        justify-content: center;
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        padding: 48px 48px 48px 48px;
+    }
+    .BenefitsItem__header {
+        font-size: 22px;
+    }
+    .BenefitsItem__summary {
+        padding: 0 37px;
+        text-align: center;
+    }
+    .BenefitsDownLogo {
+        align-items: center;
+        column-gap: 10px;
+    }
+    /* ================ Benefits Css ================ */
+    /* ================ MeetTeam Css ================ */
+    .MeetTeamHeader__title {
+        font-size: 40px;
+    }
+    .JhonSmith--cstm{
+        margin-top: 20px;
+    }
+    /* ================ MeetTeam Css ================ */
+    /* ================ Fotter Css ================ */
+    .FooterLeft__Summary {
+   
+    padding-right: 47px;
+}
+    .FotterRigth__Summary {
+        padding-right: 22px;
+        text-align: justify;
+    }
+    /* ================ Fotter Css ================ */
+}

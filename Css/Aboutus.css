@@ -125,6 +125,7 @@ body {
   line-height: 28px;
   padding-right: 139px;
 }
+
 /* ====================== Our Designs Css ====================== */
 /* ====================== WhoWeAre Css ====================== */
 #WhoWeAre {
@@ -328,6 +329,9 @@ body {
   font-size: 48px;
   font-weight: 600;
   color: var(--black_color);
+}
+.JhonSmith--cstm {
+  /* this class for medium device */
 }
 .JhonSmith {
   padding: 48px 64px 32px 64px;
