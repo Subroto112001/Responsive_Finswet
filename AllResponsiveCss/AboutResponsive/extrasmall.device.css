@@ -1,0 +1,46 @@
+@media (max-width: 575.98px) {
+  :root {
+    --primary_Background_color: #1c1e53;
+    --secondary_Background_color: #f4f6fc;
+    --yellow_color: #fcd980;
+    --white_color: #ffff;
+    --black_color: #282938;
+  }
+  /*  ========================= OurDesign ========================= */
+  .OurDesignAbout__Title {
+    font-size: 28px;
+  }
+  .OurDesignAbout__Summary {
+    margin-top: 5px;
+    font-size: 14px;
+  }
+  /*  ========================= OurDesign ========================= */
+  /*  ========================= WhoWeAre ========================= */
+  .WhoWeAreWrapper {
+    padding-left: 32px;
+  }
+  .WhoWeAreLeft__Title {
+    margin-top: 4px;
+    font-size: 28px;
+  }
+  .WhoWeAreLeft__Summary {
+    margin-top: 10px;
+    font-size: 15px;
+  }
+  .WhoWeAreRight__title {
+    font-size: 27px;
+  }
+  .WhoWeAreRight__Summary {
+    font-size: 14px;
+    margin-top: 10px;
+  }
+  /*  ========================= WhoWeAre ========================= */
+  /*  ========================= proccess ========================= */
+  .proccess__Header {
+    font-size: 30px;
+  }
+  .proccessItem__Header {
+    font-size: 20px;
+  }
+  /*  ========================= proccess ========================= */
+}
