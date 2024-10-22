@@ -31,6 +31,7 @@
         <!-- ====================== Css Link ====================== -->
         <link rel="stylesheet" href="./Css/bootstrap.min.css">
         <link rel="stylesheet" href="./Css/Features.css">
+        <link rel="stylesheet" href="./Css/features.responsive.css">
         <!-- ====================== Css Link ====================== -->
     </head>
 
@@ -51,7 +52,8 @@
                     <span class="navbar-toggler-icon"></span>
                 </button>
                 <!-- ========== Responsive Toogle Button ======== -->
-                <div class="CoustomNavbarMenu">
+                <div class="navbar-collapse collapse CoustomNavbarMenu"
+                    id="navbarNav">
                     <ul class="navbar-nav CoustomNavbarIMenuUl ms-auto">
                         <li class="CoustomNavbarIMenuUl__Item">
                             <a href="./index.html">Home</a>
@@ -93,26 +95,30 @@
                                 eiusmod tempor incididunt.
                             </p>
                             <div class="BuildingPartBtn">
-                                <div class="row gx-0">
-                                    <div class="col-lg-6">
-                                        <button
-                                            class="CoustomNav__button BuildingPart--Button1">
-                                            View our work
-                                        </button>
+                                <div class="row gx-0 BuildingPartBtnWrapper">
+                                    <div class="col-lg-6 col-md-4 col-sm-12">
+                                        <div class="BuildingPartBtnBox">
+                                            <button
+                                                class="CoustomNav__button BuildingPart--Button1">
+                                                View our work
+                                            </button>
+                                        </div>
                                     </div>
-                                    <div class="col-lg-6">
-                                        <button
-                                            class="CoustomNav__button BuildingPart--Button2">
-                                            View Pricing &nbsp;
-                                            <i
-                                                class="fa-light fa-arrow-right-long"></i>
-                                        </button>
+                                    <div class="col-lg-6 col-md-4 col-sm-12">
+                                        <div class="BuildingPartBtnBox">
+                                            <button
+                                                class="CoustomNav__button BuildingPart--Button2">
+                                                View Pricing &nbsp;
+                                                <i
+                                                    class="fa-light fa-arrow-right-long"></i>
+                                            </button>
+                                        </div>
                                     </div>
                                 </div>
                             </div>
                         </div>
                     </div>
-                    <div class="col-lg-6">
+                    <div class="col-lg-6 mt-md-3">
                         <div class="BuildingPartRight">
                             <picture>
                                 <img
@@ -160,7 +166,7 @@
                         The benefits of working with us
                     </h4>
                 </div>
-                <div class="row BenefitsItemWrapper">
+                <div class="row gap-3 BenefitsItemWrapper">
                     <div class="col-lg-4">
                         <div class="BenefitsItem">
                             <picture>
@@ -225,7 +231,7 @@
         <section id="OurDesign">
             <div class="container">
                 <div
-                    class="row d-flex justify-content-between align-content-center">
+                    class="row d-flex justify-content-between align-items-center">
                     <div class="col-lg-6">
                         <div class="OurDesignAbout">
                             <h4 class="OurDesignAbout__Subtitle">
@@ -263,7 +269,7 @@
         <section id="Revision">
             <div class="container">
                 <div
-                    class="row d-flex justify-content-between align-content-center">
+                    class="row d-flex justify-content-between align-items-center">
                     <div class="col-lg-6">
                         <div class="OurDesignRight">
                             <picture>
@@ -301,7 +307,7 @@
         <section id="OurDesign">
             <div class="container">
                 <div
-                    class="row d-flex justify-content-between align-content-center">
+                    class="row d-flex justify-content-between align-items-center">
                     <div class="col-lg-6">
                         <div class="OurDesignAbout">
                             <h4 class="OurDesignAbout__Subtitle">
@@ -338,7 +344,7 @@
         <section id="Quickdeleviry">
             <div class="container">
                 <div
-                    class="row d-flex justify-content-between align-content-center">
+                    class="row d-flex justify-content-between align-items-center">
                     <div class="col-lg-6">
                         <div class="OurDesignRight">
                             <picture>
@@ -372,11 +378,11 @@
             </div>
         </section>
         <!-- ====================== Quickdeleviry Markup ====================== -->
-        <!-- =========== Frequently Markup =========== -->
+        <!-- ====================== Frequently Markup ====================== -->
         <section id="Frequently">
             <div class="container">
                 <div class="row">
-                    <div class="col-4">
+                    <div class="col-lg-4 col-sm-5">
                         <div class="FrequentlyLeft">
                             <h4 class="FrequentlyLeft__title">
                                 Frequently asked questions
@@ -386,7 +392,7 @@
                             </a>
                         </div>
                     </div>
-                    <div class="col-8">
+                    <div class="col-lg-8 col-sm-7">
 
                         <div class="accordion accordion-flush"
                             id="accordionFlushExample">
@@ -524,7 +530,7 @@
                 </div>
             </div>
         </section>
-        <!-- =========== Frequently Markup =========== -->
+        <!-- ====================== Frequently Markup ====================== -->
         <!-- =========== Footer Markup =========== -->
         <section id="Footer">
             <div class="container">
@@ -541,8 +547,9 @@
                                 improve your
                                 online presence.
                             </p>
-                            <div class="row FooterLeftContact">
-                                <div class="col-6">
+                            <div class="row gy-2 FooterLeftContact">
+                                <div
+                                    class="col-xxl-6 col-lg-6 col-md-12 col-sm-12 col-12">
                                     <div class="FooterLeftContactleft">
                                         <h4
                                             class="FooterLeftContactleft__header">
@@ -554,7 +561,8 @@
                                         </a>
                                     </div>
                                 </div>
-                                <div class="col-6">
+                                <div
+                                    class="col-xxl-6 col-lg-6 col-md-12 col-sm-12 col-12">
                                     <div class="FooterLeftContactleft">
                                         <h4
                                             class="FooterLeftContactleft__header">
@@ -603,36 +611,42 @@
         <footer>
             <div class="container">
                 <div class="FotterWrapper">
-                    <h4 class="FootterPartCopy">Copyright 2022,
-                        Finsweet.com</h4>
+                    <div class="row mt-3 justify-content-between">
+                        <div class="col-lg-5 col-md-5 col-12">
+                            <div class="FootterPartCopyTitele">
+                                <h4 class="FootterPartCopy">Copyright 2022,
+                                    Finsweet.com</h4>
+                            </div>
+                        </div>
+                        <div class="col-lg-7 col-md-7  col-12 ">
+                            <ul class="FootterPartCopyRigt">
+                                <li class="FootterPartCopyRigt">
+                                    <a class="FootterPartCopyRigt__item"
+                                        aria-current="page"
+                                        href="#">Home</a>
+                                </li>
+                                <li class="FootterPartCopyRigt">
+                                    <a class="FootterPartCopyRigt__item"
+                                        href="#">Features</a>
+                                </li>
 
-                    <div>
-                        <ul class="FootterPartCopyRigt">
-                            <li class="FootterPartCopyRigt">
-                                <a class="FootterPartCopyRigt__item"
-                                    aria-current="page"
-                                    href="#">Home</a>
-                            </li>
-                            <li class="FootterPartCopyRigt">
-                                <a class="FootterPartCopyRigt__item"
-                                    href="#">Features</a>
-                            </li>
+                                <li class="FootterPartCopyRigt">
+                                    <a class="FootterPartCopyRigt__item"
+                                        href="#">Pricing</a>
+                                </li>
+                                <li class="FootterPartCopyRigt">
+                                    <a class="FootterPartCopyRigt__item"
+                                        href="#">FAQ</a>
+                                </li>
+                                <li class="FootterPartCopyRigt">
+                                    <a class="FootterPartCopyRigt__item"
+                                        href="#">Blog</a>
+                                </li>
 
-                            <li class="FootterPartCopyRigt">
-                                <a class="FootterPartCopyRigt__item"
-                                    href="#">Pricing</a>
-                            </li>
-                            <li class="FootterPartCopyRigt">
-                                <a class="FootterPartCopyRigt__item"
-                                    href="#">FAQ</a>
-                            </li>
-                            <li class="FootterPartCopyRigt">
-                                <a class="FootterPartCopyRigt__item"
-                                    href="#">Blog</a>
-                            </li>
-
-                        </ul>
+                            </ul>
+                        </div>
                     </div>
+
                 </div>
             </div>
         </footer>

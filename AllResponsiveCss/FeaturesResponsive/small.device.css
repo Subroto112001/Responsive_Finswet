@@ -1,0 +1,98 @@
+@media (max-width: 767.98px) {
+  :root {
+    --primary_Background_color: #1c1e53;
+    --secondary_Background_color: #f4f6fc;
+    --yellow_color: #fcd980;
+    --white_color: #ffff;
+    --black_color: #282938;
+  }
+  /* =================== Building =================== */
+  .BuildingPartHeading {
+    font-size: 36px;
+  }
+
+  .BuildingPartBtnBox {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+  }
+  /* =================== Building =================== */
+  /* =================== Benefits =================== */
+  .BenefitsHeader__title {
+    font-size: 32px;
+    max-width: 416px;
+  }
+  .BenefitsItem__summary {
+    padding: 0px 53px;
+  }
+  /* =================== Benefits =================== */
+  /* =================== OurDesign =================== */
+  .OurDesignAbout__Title {
+    line-height: 40px;
+    font-size: 26px;
+  }
+  .OurDesignAbout__Summary {
+    padding-right: 81px;
+    text-align: justify;
+  }
+  /* =================== OurDesign =================== */
+  /* =================== Revision =================== */
+  .RevisionRigth__Title {
+    line-height: 40px;
+    font-size: 28px;
+  }
+  .RevisionRigth__Summary {
+    line-height: 26px;
+    padding-right: 105px;
+  }
+  /* =================== Revision =================== */
+  /* =================== Frequently =================== */
+  .FrequentlyLeft__title {
+    font-size: 22px;
+    line-height: 44px;
+  }
+  /* =================== Frequently =================== */
+  /*  ========================= Footer ========================= */
+  .FotterRigth__title {
+    font-size: 36px;
+  }
+  .FooterLeft__Summary {
+    line-height: 25px;
+    padding-right: 12px;
+    font-size: 15px;
+  }
+  .FooterLeftContact {
+    padding: 17px 40px 17px 37px;
+  }
+  .FotterRigth {
+    display: flex;
+    flex-direction: column;
+    padding-left: 18px;
+  }
+  .FotterRigth__Summary {
+    margin-top: 14px;
+    font-size: 15px;
+    line-height: 24px;
+    padding-right: 8px;
+  }
+  .FotterRigthIcon {
+    margin-top: 96px;
+    display: flex;
+    column-gap: 27px;
+  }
+  .FootterPartCopyRigt__item {
+    font-size: 14px;
+  }
+  .FootterPartCopyTitele {
+    margin-top: 5px;
+    justify-content: center;
+    display: flex;
+    align-items: center;
+  }
+  .FootterPartCopyRigt {
+    margin-top: 6px;
+    align-items: center;
+    justify-content: center;
+  }
+  /*  ========================= Footer ========================= */
+}

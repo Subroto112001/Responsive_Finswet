@@ -1,0 +1,76 @@
+@media (max-width: 575.98px) {
+  :root {
+    --primary_Background_color: #1c1e53;
+    --secondary_Background_color: #f4f6fc;
+    --yellow_color: #fcd980;
+    --white_color: #ffff;
+    --black_color: #282938;
+  }
+
+  /*  ========================= Building ========================= */
+
+  .BuildingPartHeading {
+    font-size: 32px;
+    text-align: center;
+  }
+  .BuildingPart__Summary {
+    margin-top: 8px;
+
+    line-height: 20px;
+    text-align: center;
+  }
+  /*  ========================= Building ========================= */
+  /*  ========================= Benefits ========================= */
+  .BenefitsHeader__title {
+    font-size: 28px;
+    max-width: 440px;
+  }
+  .BenefitsItem__header {
+    font-size: 24px;
+  }
+  .BenefitsItem__summary {
+    padding: 0px 50px;
+    text-align: justify;
+  }
+  /*  ========================= Benefits ========================= */
+  /*  ========================= Client ========================= */
+  .OurDesignAbout__Title {
+    line-height: 30px;
+  }
+  .RevisionRigth__Title {
+    line-height: 30px;
+    font-size: 26px;
+  }
+  /*  ========================= Client ========================= */
+  /*  ========================= Revision ========================= */
+  .RevisionRigth__Title {
+    line-height: 30px;
+    font-size: 26px;
+  }
+  /*  ========================= Revision ========================= */
+  /*  ========================= Frequently ========================= */
+
+  .FrequentlyLeft {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+  }
+  .Count {
+    font-size: 16px;
+  }
+  /*  ========================= Frequently ========================= */
+  /*  ========================= Footer ========================= */
+  .FootterPartCopyTitele {
+    margin-top: 5px;
+    justify-content: center;
+    display: flex;
+    align-items: center;
+  }
+  .FootterPartCopyRigt {
+    margin-top: 6px;
+    align-items: center;
+    justify-content: center;
+  }
+  /*  ========================= Footer ========================= */
+}

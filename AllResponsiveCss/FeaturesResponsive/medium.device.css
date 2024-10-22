@@ -1,0 +1,68 @@
+@media (max-width: 991.98px) {
+  :root {
+    --primary_Background_color: #1c1e53;
+    --secondary_Background_color: #f4f6fc;
+    --yellow_color: #fcd980;
+    --white_color: #ffff;
+    --black_color: #282938;
+  }
+  /* =================== Benefits =================== */
+  .BenefitsHeader__title {
+    font-size: 42px;
+    max-width: 591px;
+  }
+  .BenefitsItem {
+    padding: 48px 20px 48px 20px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+  }
+  .BenefitsItem__summary {
+    padding: 0px 40px;
+    text-align: center;
+  }
+  /* =================== Benefits =================== */
+  /* =================== OurDesign =================== */
+  .OurDesignAbout__Title {
+    line-height: 50px;
+    font-size: 34px;
+  }
+  .OurDesignRight {
+    margin-top: 30px;
+  }
+
+  /* =================== OurDesign =================== */
+  /* =================== Revision =================== */
+  .RevisionRigth {
+    margin-left: 0px;
+    margin-top: 20px;
+  }
+  .RevisionRigth__Title {
+    line-height: 50px;
+    font-size: 34px;
+  }
+  .RevisionRigth__Summary {
+    line-height: 26px;
+    padding-right: 140px;
+  }
+  /* =================== Frequently =================== */
+  .FrequentlyLeft__title {
+    font-size: 24px;
+    line-height: 50px;
+  }
+  .FrequentlyLeft__Linked {
+    font-size: 16px;
+}
+  /* =================== Frequently =================== */
+   /* ================ Fotter Css ================ */
+    .FooterLeft__Summary {
+   
+    padding-right: 47px;
+}
+    .FotterRigth__Summary {
+        padding-right: 22px;
+        text-align: justify;
+    }
+    /* ================ Fotter Css ================ */
+}

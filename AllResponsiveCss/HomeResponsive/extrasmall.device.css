@@ -77,16 +77,29 @@
   /*  ========================= ClientSays ========================= */
   /*  ========================= Inquary ========================= */
   .InquaryLeftPartOverlayer__title {
-      font-size: 24px;
-        line-height: 36px;
-    }
-   .InquaryRightPart__title {
     font-size: 24px;
-}
-    /*  ========================= Inquary ========================= */
-    /*  ========================= OurBlog ========================= */
-    .OurBlog__title {
-        font-size: 28px;
-    }
-    /*  ========================= OurBlog ========================= */
+    line-height: 36px;
+  }
+  .InquaryRightPart__title {
+    font-size: 24px;
+  }
+  /*  ========================= Inquary ========================= */
+  /*  ========================= OurBlog ========================= */
+  .OurBlog__title {
+    font-size: 28px;
+  }
+  /*  ========================= OurBlog ========================= */
+  /*  ========================= Footer ========================= */
+  .FootterPartCopyTitele {
+    margin-top: 5px;
+    justify-content: center;
+    display: flex;
+    align-items: center;
+  }
+  .FootterPartCopyRigt {
+    margin-top: 6px;
+    align-items: center;
+    justify-content: center;
+  }
+  /*  ========================= Footer ========================= */
 }
