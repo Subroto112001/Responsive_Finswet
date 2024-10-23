@@ -196,6 +196,8 @@ body {
   display: flex;
   align-items: center;
   column-gap: 12px;
+  font-size: 16px;
+  font-weight: 400;
 }
 .PricingPlanItemList__Item i {
   color: #97daad;
@@ -358,8 +360,9 @@ body {
   color: var(--black_color);
 }
 .FootterPartCopyRigt {
-  display: flex;
-  column-gap: 32px;
+    display: flex;
+    column-gap: 32px;
+    justify-content: flex-end;
 }
 .FootterPartCopyRigt__item {
   font-size: 16px;

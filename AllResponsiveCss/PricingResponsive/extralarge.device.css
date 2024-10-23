@@ -1,0 +1,21 @@
+@media (max-width: 1399.98px) {
+  :root {
+    --primary_Background_color: #1c1e53;
+    --secondary_Background_color: #f4f6fc;
+    --yellow_color: #fcd980;
+    --white_color: #ffff;
+    --black_color: #282938;
+    --royalBlue__color: #2405f2;
+  }
+  /* ================ PricingPlan Css ============== == */
+  .PricingPlanHeader__summary {
+    padding: 0 338px;
+  }
+  /* ================ PricingPlan Css ============== == */
+  /* ================ Frequently Css ============== == */
+  .FrequentlyLeft__title {
+    font-size: 32px;
+  }
+  /* ================ Frequently Css ============== == */
+  
+}

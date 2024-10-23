@@ -1,0 +1,30 @@
+@media (max-width: 991.98px) {
+  :root {
+    --primary_Background_color: #1c1e53;
+    --secondary_Background_color: #f4f6fc;
+    --yellow_color: #fcd980;
+    --white_color: #ffff;
+    --black_color: #282938;
+    --royalBlue__color: #2405f2;
+  }
+  /* ================ PricingPlan Css ============== == */
+  .PricingPlanHeader__title {
+    font-size: 42px;
+  }
+  .PricingPlanItem {
+    margin-top: 15px;
+  }
+  .PricingPlanHeader__summary {
+    padding: 0px 166px;
+  }
+  /* ================ PricingPlan Css ============== == */
+  /* ================ Fotter Css ================ */
+  .FooterLeft__Summary {
+    padding-right: 47px;
+  }
+  .FotterRigth__Summary {
+    padding-right: 22px;
+    text-align: justify;
+  }
+  /* ================ Fotter Css ================ */
+}
