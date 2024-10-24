@@ -1,0 +1,60 @@
+@media (max-width: 575.98px) {
+  :root {
+    --primary_Background_color: #1c1e53;
+    --secondary_Background_color: #f4f6fc;
+    --yellow_color: #fcd980;
+    --white_color: #ffff;
+    --black_color: #282938;
+  }
+  .CaseStudiesPart__Subtitle {
+    font-size: 20px;
+  }
+  .CaseStudiesPart__Title {
+    font-size: 24px;
+    line-height: 1;
+  }
+  .CaseStudiesPart__Summary {
+    padding-right: 0px;
+    font-size: 14px;
+    line-height: 24px;
+  }
+  .CaseStudiesPartBottomItem__title {
+    font-size: 18px;
+    text-align: center;
+  }
+  /* ================== About ================= */
+  .AboutPart__title {
+    font-size: 24px;
+  }
+  .AboutPartUl__Item {
+    font-size: 14px;
+  }
+  .AboutPartDownPart__header {
+    font-size: 20px;
+    line-height: 28px;
+  }
+  .AboutPartDownItemUl {
+    flex-wrap: wrap;
+  }
+  .AboutPartDownPart__Summary {
+    font-size: 10px;
+  }
+  .AboutPartDownPart__Btn {
+    padding: 14px 52px;
+    font-size: 14px;
+  }
+  /* ================== About ================= */
+  /*  ========================= Footer ========================= */
+  .FootterPartCopyTitele {
+    margin-top: 5px;
+    justify-content: center;
+    display: flex;
+    align-items: center;
+  }
+  .FootterPartCopyRigt {
+    margin-top: 6px;
+    align-items: center;
+    justify-content: center;
+  }
+  /*  ========================= Footer ========================= */
+}

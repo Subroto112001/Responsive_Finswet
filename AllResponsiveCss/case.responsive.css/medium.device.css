@@ -1,0 +1,54 @@
+@media (max-width: 991.98px) {
+  :root {
+    --primary_Background_color: #1c1e53;
+    --secondary_Background_color: #f4f6fc;
+    --yellow_color: #fcd980;
+    --white_color: #ffff;
+    --black_color: #282938;
+  }
+  /* ================== CaseStudies ============= */
+  .CaseStudiesPart__Title {
+    padding-right: 117px;
+    line-height: 50px;
+  }
+  .CaseStudiesPart__Summary {
+    padding-right: 128px;
+  }
+  .CaseStudiesPartBottomItemWrapper {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-top: 48px;
+    border-bottom: 2px solid var(--black_color);
+    padding-bottom: 32px;
+  }
+  .CaseStudiesPartBottomItem {
+    margin-top: 10px;
+
+    justify-content: center;
+    align-items: center;
+  }
+  /* ================== CaseStudies ============= */
+  /* ================== AboutPart ============= */
+  .AboutPartDownItemUlItemPart {
+    font-size: 12px;
+  }
+  .AboutPartDownPart__header {
+    font-size: 32px;
+    line-height: 58px;
+    padding: 0 0px;
+  }
+  .AboutPartDownPart__Summary {
+    padding: 0 11px;
+  }
+  /* ================== AboutPart ============= */
+  /* ================ Fotter Css ================ */
+  .FooterLeft__Summary {
+    padding-right: 47px;
+  }
+  .FotterRigth__Summary {
+    padding-right: 22px;
+    text-align: justify;
+  }
+  /* ================ Fotter Css ================ */
+}

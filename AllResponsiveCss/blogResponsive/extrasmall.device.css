@@ -1,0 +1,45 @@
+@media (max-width: 575.98px) {
+  :root {
+    --primary_Background_color: #1c1e53;
+    --secondary_Background_color: #f4f6fc;
+    --yellow_color: #fcd980;
+    --white_color: #ffff;
+    --black_color: #282938;
+    --RoyalBlue_color: #2405f2;
+  }
+  /* ================ UXCase ============= */
+  .UXCasePart__Titel {
+    padding: 0px 0px;
+    font-size: 20px;
+    line-height: 30px;
+  }
+  /* ================ UXCase ============= */
+  /* ================ OurBlog ============= */
+  .OurBlogItemWrapper {
+    margin-top: 0px;
+  }
+  .OurBlogHeader__Title {
+    font-size: 33px;
+  }
+  .OurBlogItem__Title {
+    font-size: 18px;
+  }
+  .OurBlogItem__Summay {
+    font-size: 14px;
+    line-height: 24px;
+  }
+  /* ================ OurBlog ============= */
+  /*  ========================= Footer ========================= */
+  .FootterPartCopyTitele {
+    margin-top: 5px;
+    justify-content: center;
+    display: flex;
+    align-items: center;
+  }
+  .FootterPartCopyRigt {
+    margin-top: 6px;
+    align-items: center;
+    justify-content: center;
+  }
+  /*  ========================= Footer ========================= */
+}

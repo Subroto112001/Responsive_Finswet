@@ -1,0 +1,35 @@
+@media (max-width: 991.98px) {
+  :root {
+    --primary_Background_color: #1c1e53;
+    --secondary_Background_color: #f4f6fc;
+    --yellow_color: #fcd980;
+    --white_color: #ffff;
+    --black_color: #282938;
+  }
+  /* ===========================UXCase=================== */
+  .UXCasePart__Titel {
+    font-size: 36px;
+    padding: 0px 27px;
+  }
+
+  /* ===========================UXCase=================== */
+  /* ===========================Description=================== */
+  .DescriptionPart__Header {
+    font-size: 33px;
+    line-height: 43px;
+  }
+  .DescriptionPart__2ndHeader {
+    font-size: 33px;
+    line-height: 43px;
+  }
+  /* ===========================Description=================== */
+  /* ================ Fotter Css ================ */
+  .FooterLeft__Summary {
+    padding-right: 47px;
+  }
+  .FotterRigth__Summary {
+    padding-right: 22px;
+    text-align: justify;
+  }
+  /* ================ Fotter Css ================ */
+}

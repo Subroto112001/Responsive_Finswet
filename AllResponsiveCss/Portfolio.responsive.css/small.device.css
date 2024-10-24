@@ -1,0 +1,76 @@
+@media (max-width: 767.98px) {
+  :root {
+    --primary_Background_color: #1c1e53;
+    --secondary_Background_color: #f4f6fc;
+    --yellow_color: #fcd980;
+    --white_color: #ffff;
+    --black_color: #282938;
+  }
+  /* =======================Portfolio================== */
+  .PortfolioPart__Title {
+    font-size: 32px;
+  }
+  .PortfolioPart__Summary {
+    padding: 0 0px;
+    line-height: 20px;
+  }
+
+  /* =======================Portfolio================== */
+  /* =======================Template================== */
+  .TemplateIteam__Title {
+    font-size: 28px;
+  }
+  /* =======================Template================== */
+  /* =======================Contact================== */
+  .ContactPart__title {
+    padding: 0 59px;
+    font-size: 28px;
+  }
+  .ContactPart__Summary {
+    padding: 0 29px;
+  }
+  /* =======================Contact================== */
+  /*  ========================= Footer ========================= */
+  .FotterRigth__title {
+    font-size: 36px;
+  }
+  .FooterLeft__Summary {
+    line-height: 25px;
+    padding-right: 12px;
+    font-size: 15px;
+  }
+  .FooterLeftContact {
+    padding: 17px 40px 17px 37px;
+  }
+  .FotterRigth {
+    display: flex;
+    flex-direction: column;
+    padding-left: 18px;
+  }
+  .FotterRigth__Summary {
+    margin-top: 14px;
+    font-size: 15px;
+    line-height: 24px;
+    padding-right: 8px;
+  }
+  .FotterRigthIcon {
+    margin-top: 96px;
+    display: flex;
+    column-gap: 27px;
+  }
+  .FootterPartCopyRigt__item {
+    font-size: 14px;
+  }
+  .FootterPartCopyTitele {
+    margin-top: 5px;
+    justify-content: center;
+    display: flex;
+    align-items: center;
+  }
+  .FootterPartCopyRigt {
+    margin-top: 6px;
+    align-items: center;
+    justify-content: center;
+  }
+  /*  ========================= Footer ========================= */
+}

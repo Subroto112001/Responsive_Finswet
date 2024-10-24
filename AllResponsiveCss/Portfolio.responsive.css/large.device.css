@@ -1,0 +1,43 @@
+@media (max-width: 1199.98px) {
+  :root {
+    --primary_Background_color: #1c1e53;
+    --secondary_Background_color: #f4f6fc;
+    --yellow_color: #fcd980;
+    --white_color: #ffff;
+    --black_color: #282938;
+  }
+  /* ================ Portfolio Css ================ */
+  .PortfolioPart__Title {
+    font-size: 44px;
+  }
+  .PortfolioPart__Summary {
+    padding: 0 154px;
+  }
+  /* ================ Portfolio Css ================ */
+  /* ================ Template Css ================ */
+  .TemplateIteam__Summary {
+    line-height: 24px;
+  }
+  /* ================ Template Css ================ */
+  /* ================ Contact Css ================ */
+  .ContactPart__title {
+    padding: 0 208px;
+    font-size: 44px;
+  }
+  /* ================ Contact Css ================ */
+  /*  ========================= Fotter ========================= */
+  .FooterLeftContactleft__mail {
+    font-size: 13px;
+  }
+  .FotterRigth__title {
+    font-size: 40px;
+  }
+  .FotterRigth__Summary {
+    margin-top: 14px;
+    font-size: 15px;
+
+    line-height: 26px;
+    padding-right: 62px;
+  }
+  /*  ========================= Fotter ========================= */
+}

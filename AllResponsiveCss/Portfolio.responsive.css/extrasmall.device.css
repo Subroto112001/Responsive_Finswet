@@ -1,0 +1,43 @@
+@media (max-width: 575.98px) {
+  :root {
+    --primary_Background_color: #1c1e53;
+    --secondary_Background_color: #f4f6fc;
+    --yellow_color: #fcd980;
+    --white_color: #ffff;
+    --black_color: #282938;
+  }
+  /* ================ Portfolio Css ================ */
+  .PortfolioPart__Title {
+    font-size: 26px;
+  }
+  .PortfolioPart__Summary {
+    line-height: 18px;
+    font-size: 16px;
+    margin-top: 16px;
+  }
+  /* ================ Portfolio Css ================ */
+  /* ================ Template Css ================ */
+  .TemplateIteam__Title {
+    font-size: 26px;
+  }
+  /* ================ Template Css ================ */
+  /* ================ Contact Css ================ */
+  .ContactPart__title {
+    padding: 0 21px;
+    font-size: 25px;
+  }
+  /* ================ Contact Css ================ */
+  /*  ========================= Footer ========================= */
+  .FootterPartCopyTitele {
+    margin-top: 5px;
+    justify-content: center;
+    display: flex;
+    align-items: center;
+  }
+  .FootterPartCopyRigt {
+    margin-top: 6px;
+    align-items: center;
+    justify-content: center;
+  }
+  /*  ========================= Footer ========================= */
+}

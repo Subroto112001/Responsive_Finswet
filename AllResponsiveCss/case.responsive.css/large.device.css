@@ -1,0 +1,48 @@
+@media (max-width: 1199.98px) {
+  :root {
+    --primary_Background_color: #1c1e53;
+    --secondary_Background_color: #f4f6fc;
+    --yellow_color: #fcd980;
+    --white_color: #ffff;
+    --black_color: #282938;
+  }
+  /* ================== CaseStudies ================ */
+  .CaseStudiesPart__Title {
+    padding-right: 434px;
+    line-height: 58px;
+  }
+  .CaseStudiesPart__Summary {
+    padding-right: 439px;
+  }
+  .CaseStudiesPartBottomItem__title {
+    font-size: 21px;
+    font-weight: 500;
+    color: var(--black_color);
+  }
+  /* ================== CaseStudies ================ */
+  /* ================== AboutPart ================ */
+  .AboutPartDownPart__header {
+    font-size: 42px;
+    line-height: 58px;
+    padding: 0 19px;
+  }
+  .AboutPartDownPart__Summary {
+    padding: 0 88px;
+  }
+  /* ================== AboutPart ================ */
+  /*  ========================= Fotter ========================= */
+  .FooterLeftContactleft__mail {
+    font-size: 13px;
+  }
+  .FotterRigth__title {
+    font-size: 40px;
+  }
+  .FotterRigth__Summary {
+    margin-top: 14px;
+    font-size: 15px;
+
+    line-height: 26px;
+    padding-right: 62px;
+  }
+  /*  ========================= Fotter ========================= */
+}

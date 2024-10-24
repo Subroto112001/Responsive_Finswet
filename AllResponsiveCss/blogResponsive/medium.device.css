@@ -1,0 +1,40 @@
+@media (max-width: 991.98px) {
+  :root {
+    --primary_Background_color: #1c1e53;
+    --secondary_Background_color: #f4f6fc;
+    --yellow_color: #fcd980;
+    --white_color: #ffff;
+    --black_color: #282938;
+    --RoyalBlue_color: #2405f2;
+  }
+  /* ==================== UXCase =================== */
+  .UXCasePart__Titel {
+    padding: 0px 65px;
+    font-size: 28px;
+    line-height: 50px;
+  }
+  .UXCasePart__Summary {
+    line-height: 26px;
+  }
+  /* ==================== UXCase =================== */
+  /* ==================== OurBlog =================== */
+  .OurBlogHeader__Title {
+    font-size: 42px;
+  }
+  .OurBlogItem__Title {
+    line-height: 26px;
+  }
+  /* ==================== OurBlog =================== */
+  /* ================ Fotter Css ================ */
+  .FotterRigth__title {
+    font-size: 41px;
+  }
+  .FooterLeft__Summary {
+    padding-right: 47px;
+  }
+  .FotterRigth__Summary {
+    padding-right: 22px;
+    text-align: justify;
+  }
+  /* ================ Fotter Css ================ */
+}

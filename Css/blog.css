@@ -182,6 +182,9 @@ body {
 .OurBlogItem__Read:hover {
   color: var(--RoyalBlue_color);
 }
+.OurBlogItemWrapper {
+  margin-top: 60px;
+}
 /* ================OurBlog Css ================ */
 /* =========== Footer CSS =========== */
 #Footer {
@@ -269,6 +272,7 @@ body {
 .FootterPartCopyRigt {
   display: flex;
   column-gap: 32px;
+  justify-content: flex-end;
 }
 .FootterPartCopyRigt__item {
   font-size: 16px;
