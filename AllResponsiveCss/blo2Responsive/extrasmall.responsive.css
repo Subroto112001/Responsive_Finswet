@@ -1,0 +1,49 @@
+@media (max-width: 575.98px) {
+  :root {
+    --primary_Background_color: #1c1e53;
+    --secondary_Background_color: #f4f6fc;
+    --yellow_color: #fcd980;
+    --white_color: #ffff;
+    --black_color: #282938;
+  }
+  /* ===================== UXCase ================ */
+  .UXCasePart__Titel {
+    font-size: 22px;
+    padding: 0px 15px;
+    line-height: 28px;
+  }
+  /* ===================== UXCase ================ */
+  /* ===================== Description ================ */
+  #Description {
+    padding: 48px 100px 128px 100px;
+  }
+  .DescriptionPart__Header {
+    font-size: 20px;
+    line-height: 28px;
+  }
+  .DescriptionPart__2ndHeader {
+    font-size: 20px;
+    line-height: 28px;
+  }
+  .DescriptionPart__2ndSummary {
+    font-size: 14px;
+
+    text-align: justify;
+    line-height: 24px;
+    color: var(--black_color);
+  }
+  /* ===================== Description ================ */
+  /*  ========================= Footer ========================= */
+  .FootterPartCopyTitele {
+    margin-top: 5px;
+    justify-content: center;
+    display: flex;
+    align-items: center;
+  }
+  .FootterPartCopyRigt {
+    margin-top: 6px;
+    align-items: center;
+    justify-content: center;
+  }
+  /*  ========================= Footer ========================= */
+}

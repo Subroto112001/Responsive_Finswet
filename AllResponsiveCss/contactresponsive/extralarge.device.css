@@ -1,0 +1,14 @@
+@media (max-width: 1399.98px) { 
+    :root {
+    --primary_Background_color: #1c1e53;
+    --secondary_Background_color: #f4f6fc;
+    --yellow_color: #fcd980;
+    --white_color: #ffff;
+    --black_color: #282938;
+  }
+/* ======================= contact ================== */
+.contactPart__Summary {
+    padding: 0 283px;
+}
+/* ======================= contact ================== */
+}

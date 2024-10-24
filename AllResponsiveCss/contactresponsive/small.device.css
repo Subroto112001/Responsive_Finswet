@@ -6,43 +6,21 @@
     --white_color: #ffff;
     --black_color: #282938;
   }
-  /* ==================== UXCase =============== */
-  .UXCasePart__Titel {
-    font-size: 26px;
-    padding: 0px 27px;
-    line-height: 42px;
+  /* =====================contact================= */
+  .contactPart__Title {
+    font-size: 32px;
   }
-  .UXCasePart__Summary {
-    margin-top: 36px;
-    font-size: 14px;
-    line-height: 24px;
+  .contactPart__Summary {
+    padding: 0 0px;
+    font-size: 15px;
   }
-  /* ==================== UXCase =============== */
-  /* ==================== Description =============== */
-  #Description {
-    padding: 48px 120px 128px 120px;
+  .form-control {
+    font-size: 0.7rem;
   }
-  .DescriptionPart__Header {
-    font-size: 28px;
-    line-height: 36px;
+  .contactPartFrom__title {
+    font-size: 15px;
   }
-  .DescriptionPart__Summary {
-    margin-top: 20px;
-    font-size: 14px;
-    text-align: justify;
-    line-height: 24px;
-  }
-  .DescriptionPart__2ndSummary {
-    font-size: 14px;
-    text-align: justify;
-    line-height: 24px;
-  }
-
-  .DescriptionPart__2ndHeader {
-    font-size: 28px;
-    line-height: 30px;
-  }
-  /* ==================== Description =============== */
+  /* =====================contact================= */
   /*  ========================= Footer ========================= */
   .FotterRigth__title {
     font-size: 36px;
