@@ -1,0 +1,33 @@
+@media (max-width: 991.98px) {
+  :root {
+    --primary_Background_color: #1c1e53;
+    --secondary_Background_color: #f4f6fc;
+    --yellow_color: #fcd980;
+    --white_color: #ffff;
+    --black_color: #282938;
+    --RoyalBlue_color: #2405f2;
+  }
+  /* ========================= PrivacyPolicy ============================ */
+  .PrivacyPolicy__Title {
+    font-size: 40px;
+  }
+  .PrivacyPolicy__Summary {
+    padding: 0 112px;
+  }
+  .Privacydownpart {
+    padding: 0 100px;
+  }
+  .Privacydownpart__header {
+    font-size: 35px;
+  }
+  /* ========================= PrivacyPolicy ============================ */
+  /* ================ Fotter Css ================ */
+  .FooterLeft__Summary {
+    padding-right: 47px;
+  }
+  .FotterRigth__Summary {
+    padding-right: 22px;
+    text-align: justify;
+  }
+  /* ================ Fotter Css ================ */
+}
