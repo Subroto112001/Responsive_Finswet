@@ -54,49 +54,58 @@ body {
   font-family: var(--Popins_Font);
 }
 /* ======================Common CSS====================== */
-/* ================ Navbar Css ================ */
-.CoustomNav {
-  padding: 16px 0;
-  background-color: var(--primary_Background_color);
+/* =================== navbar================== */
+.customToggler--button {
+  align-content: center;
+  border-radius: 10px;
+  transition: all ease 0.3s;
+  -webkit-transition: all ease 0.3s;
+  -moz-transition: all ease 0.3s;
+  -ms-transition: all ease 0.3s;
+  -o-transition: all ease 0.3s;
 }
-
-.CoustomNavbarIMenuUl {
-  column-gap: 32px;
+.customToggler--button:hover {
+  background-color: var(--white_color);
 }
-.CoustomNavbarIMenuUl__Item a {
-  color: #bbbbcb;
-  transition: all linear 0.2s;
-  -webkit-transition: all linear 0.2s;
-  -moz-transition: all linear 0.2s;
-  -ms-transition: all linear 0.2s;
-  -o-transition: all linear 0.2s;
+.customToggler--button:hover .customToggler--icon {
+  color: var(--black_color);
 }
-.CoustomNavbarIMenuUl__Item:hover a {
+.customToggler--icon {
   color: var(--white_color);
+  align-content: center;
+  transition: all ease 0.3s;
 }
-.CoustomNav__button {
-  padding: 16px 48px;
-  background-color: transparent;
+.navbar-toggler:focus {
+  box-shadow: none;
+}
+.customNavItem {
+  width: 100%;
+  margin: 10px 0;
+  padding: 10px 0;
+  border-radius: 20px;
+  border: solid 2px rgba(244, 246, 252, 0.2);
+  text-align: center;
+  cursor: pointer;
+}
+.customNavItem a {
   color: var(--white_color);
-  font-size: 16px;
-  font-weight: 500;
-  border: 2px solid rgb(244, 246, 252, 20%);
-  border-radius: 42px;
-  -webkit-border-radius: 42px;
-  -moz-border-radius: 42px;
-  -ms-border-radius: 42px;
-  -o-border-radius: 42px;
-  transition: all linear 0.3s;
-  -webkit-transition: all linear 0.3s;
-  -moz-transition: all linear 0.3s;
-  -ms-transition: all linear 0.3s;
-  -o-transition: all linear 0.3s;
+  width: 100%;
 }
-.CoustomNav__button:hover {
+.customNavItem:hover {
+  background-color: var(--yellow_color);
+}
+.nav--button {
+  width: 100%;
   background-color: var(--yellow_color);
   color: var(--black_color);
 }
-/* ================ Navbar Css ================ */
+.customNavItem__link {
+  width: 100%;
+}
+.customNav {
+  padding: 20px 0 20px 0;
+}
+/* =================== navbar================== */
 /* ====================== Portfolio Css ====================== */
 #Portfolio {
   padding: 128px 0;

@@ -37,46 +37,49 @@
 
     <body>
         <!-- ====================== NavBar Markup ====================== -->
-        <nav class="navbar navbar-expand-lg CoustomNav">
-            <div class="container">
-                <picture>
-                    <img src="./images/NavbarLogo/Logo.png" alt="Logo.png"
-                        title="Logo.png" />
-                </picture>
-                <!-- ========== Responsive Toogle Button ======== -->
-                <button class="navbar-toggler" type="button"
-                    data-bs-toggle="collapse"
-                    data-bs-target="#navbarNavDropdown"
-                    aria-controls="navbarNavDropdown" aria-expanded="false"
-                    aria-label="Toggle navigation">
-                    <span class="navbar-toggler-icon"></span>
-                </button>
-                <!-- ========== Responsive Toogle Button ======== -->
-                <div class="CoustomNavbarMenu">
-                    <ul class="navbar-nav CoustomNavbarIMenuUl ms-auto">
-                        <li class="CoustomNavbarIMenuUl__Item">
-                            <a href="#">Home</a>
-                        </li>
-                        <li class="CoustomNavbarIMenuUl__Item">
-                            <a href="./Aboutus.html">About us</a>
-                        </li>
-                        <li class="CoustomNavbarIMenuUl__Item">
-                            <a href="./features.html">Features</a>
-                        </li>
-                        <li class="CoustomNavbarIMenuUl__Item">
-                            <a href="./Pricing.html">Pricing</a>
-                        </li>
-                        <li class="CoustomNavbarIMenuUl__Item">
-                            <a href="#">FAQ</a>
-                        </li>
-                        <li class="CoustomNavbarIMenuUl__Item">
-                            <a href="#">Blog</a>
-                        </li>
-                    </ul>
-                </div>
-                <button class="CoustomNav__button">Contact us</button>
-            </div>
-        </nav>
+    <nav class="navbar navbar-expand-lg customNav">
+      <div class="container ">
+        <picture>
+          <img src="./images/NavbarLogo/Logo.png" alt="Logo.png"
+            title="Logo.png" />
+        </picture>
+        <!-- ====================== Toggle btn================== -->
+        <button class="navbar-toggler customToggler--button" type="button"
+          data-bs-toggle="collapse" data-bs-target="#navbarNav"
+          aria-controls="navbarNav" aria-expanded="false"
+          aria-label="Toggle navigation">
+          <span class="navbar-toggler-icon customToggler--icon"><i
+              class="fa-solid fa-bars customToggler--icon"></i></span>
+        </button>
+        <!-- ====================== Toggle btn================== -->
+        <div class="collapse navbar-collapse custom-nab" id="navbarNav">
+          <ul
+            class="navbar-nav ms-xl-auto ms-lg-auto mt-4 mt-lg-0 mb-4 mb-lg-0">
+            <li class="customNavItem">
+              <a class c aria-current="page" href="index.html">Home</a>
+            </li>
+            <li class="customNavItem">
+              <a class aria-current="page" href="about.html">About us</a>
+            </li>
+            <li class="customNavItem">
+              <a class aria-current="page" href="features.html">Features</a>
+            </li>
+            <li class="customNavItem">
+              <a class aria-current="page" href="pricing.html">Pricing</a>
+            </li>
+            <li class="customNavItem">
+              <a class aria-current="page" href="faq.html">FAQ</a>
+            </li>
+            <li class="customNavItem">
+              <a class aria-current="page" href="blog.html">Blog</a>
+            </li>
+          </ul>
+          <a href="contact.html" class="customNavItem__link"><button
+              class="CoustomNav__button nav--button">Contact us</button></a>
+        </div>
+      </div>
+    </nav>
+    <!-- ====================== NavBar Markup ====================== -->
         <!-- ====================== NavBar Markup ====================== -->
         <!-- ====================== Privacy Policy Markup ====================== -->
         <section id="Privacy">
